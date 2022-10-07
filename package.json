@@ -1,0 +1,36 @@
+{
+  "name": "automation-helion",
+  "version": "1.0.0",
+  "description": "Automation framework for helion page",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "wdio wdio.conf.ts --suite e2e",
+    "debug": "wdio wdio.conf.ts --suite debug"
+  },
+  "keywords": [
+    "automation",
+    "framework",
+    "helion",
+    "typescript",
+    "webdriverio"
+  ],
+  "author": "Bartek Szczęsny",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^7.25.1",
+    "allure-commandline": "^2.18.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.0.0",
+    "@wdio/devtools-service": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "chromedriver": "^106.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
